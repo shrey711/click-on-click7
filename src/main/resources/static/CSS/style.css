@@ -1,0 +1,470 @@
+body{
+	 
+	 background:#e2e2e2!important;
+	
+}
+.bg-primary{
+	
+	background:blue;
+	
+}
+.banner{
+	
+	width:100%;
+	height:100vh;
+	background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(../image/sky.jpg);
+	/* background-size:cover; */
+	color:black;
+}
+
+.banner1{
+	
+	width:100%;
+	height:100vh;
+	background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(../image/Green.jpg);
+	background-size:cover;
+	color:black;
+}
+
+
+.my-card{
+	
+	padding:20px;
+	background:#FFFFFF;
+}
+
+#login .container #login-row #login-column #login-box {
+  margin-top: 120px;
+  max-width: 700px;
+  height: 420px;
+  border: 1px solid #9C9C9C;
+  background-color:white;
+}
+
+.container1{
+	
+	display: inline;
+	max-width: 400px
+}
+
+#login .container #login-row #login-column #login-box #login-form {
+  padding: 20px;
+}
+#login .container #login-row #login-column #login-box #login-form #register-link {
+  margin-top: -85px;
+}
+
+.margin{
+	
+	margin-left:72%;
+	
+}
+
+
+.margin0{
+	
+	margin-left:5%;
+	
+}
+
+.margin1{
+	
+	margin-left:15%;
+	
+}
+
+.margin2{
+	
+	margin:5%;
+	
+}
+
+.margin3{
+	
+	margin:2%;
+	
+}
+
+.radio{
+	
+	display: inline-block;
+}
+/* Sidebar style */
+
+@media only screen and (max-width:600px){
+	
+	.sidebar{
+	   display: none;
+	   width: 40% !important;
+	   background: white;
+	   height: 100vh;
+	   position: fixed;
+	   padding-top: 20px;  
+	   z-index: 23445;
+	
+	}
+	.content{
+  
+        margin-left:2% !important;	
+	
+    }
+	
+}
+
+.sidebar{
+	width:18%;
+	background:white;
+	height:100%;
+	position:fixed;
+	padding-top: 45px;
+}
+
+.sidebar a{
+	display: block;
+	width: 100%;
+	padding: 10px 25px;
+	text-decoration: none;
+	color:gray;	
+	
+}
+
+.sidebar a:hover{
+	background: #e2e2e2e2;
+}
+
+.sidebar .divider{
+	height:0.5px;
+	width: 100%;
+	background: #e2e2e2;
+	margin-top: 10px;
+	
+}
+.content{
+  
+  margin-left:20%	
+	
+}
+.sidebar .crossBtn{
+	position: absolute;
+	top: 0;
+	right: 35px;
+	font-size: 36px;
+	cursor: pointer;	
+}
+.fas{
+	
+	cursor: pointer;
+}
+
+.my_profile_picture{
+	
+	width: 35px;
+	height: 35px;
+	object-fit:cover;
+	
+}
+
+/* Search style */
+
+.search-container{
+	
+	position: relative;
+}
+
+.search-result{
+	
+	position: absolute;
+	background: white;
+	width: 100%;
+	padding: 10px;
+	border: 1px solid gray;
+	display: none;
+	
+}
+
+/* Contact */
+
+.container3{
+	 
+	 top: 20px;
+	
+}
+.contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(../image/sky.jpg); 
+    top:30px
+}
+
+.content1{
+    max-width: 1300px;
+    text-align: center;
+    padding-top: 75px;
+    margin-top: 5px;
+}
+.contact .content1 h2{
+    font-size: 36px;
+    font-weight: 500;
+    color: rgb(35, 24, 196);
+
+}
+.contact .content1 p{
+     
+    font-weight: 300;
+    color: black;
+    font-size: 20px;
+}
+.container2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.container2 .contactinfo{
+    width: 50%;
+    display: flex;
+    flex-direction:column;
+
+}
+.container2 .contactinfo .box{
+    position: relative;
+    padding: 20px 0px;
+    display: flex;
+}
+.container2 .contactinfo .box .icon{
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+.container2 .contactinfo .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: rgb(14, 15, 15);
+    flex-direction: column;
+    font-weight: 300;
+}
+.container2 .contactinfo .box .text h3{
+    font-weight: 500;
+    color: rgb(60, 9, 243);
+}
+.contactform{
+    width: 40%;
+    padding: 40px;
+    background: #fff;
+}
+.contactform h2{
+    font-size: 30px;
+    color: rgb(42, 28, 230);
+    font-weight: 500;
+}
+.contactform .inputbox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+
+}
+.contactform .inputbox input,
+.contactform .inputbox textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    resize: none;
+}
+.contactform .inputbox span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: rgb(58, 47, 45);
+}
+.contactform .inputbox input:focus ~ span,
+.contactform .inputbox input:valid ~ span,
+.contactform .inputbox textarea:focus ~ span,
+.contactform .inputbox textarea:valid ~ span
+{
+    color: rgb(58, 53, 58);
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+.contactform .inputbox input[type="submit"]
+{
+    width: 100px;
+    background: skyblue;
+    color: rgb(9, 15, 12);
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+@media(max-width:991px)
+{
+    .contact
+    {
+        padding: 50px;
+    }
+    .container2{
+        flex-direction: column; 
+    }
+    .container2 .contactinfo
+    {
+        margin-bottom: 40px;
+    }
+    .container2 .contactinfo ,.contactform{
+        width: 100%;
+    }
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: black; 
+    color: whitesmoke;
+    
+    font-size: 15px;
+}
+
+/* About  */
+
+.about{
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about .cnt img{
+    height: auto;
+    width: 600px;
+    max-width: 100%;
+}
+.text1{
+    width: 550px;
+    max-width: 100%;
+    padding: 0px 10px;
+}
+.cnt{
+    width: 1280px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.text1 .h{
+    color: chocolate;
+    font-size: 85px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+.text1 .hs{
+    color: brown;
+    font-size: 25px;
+    margin-bottom: 25px;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+.text1 .p1{
+    color: rgb(8, 12, 10);
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    margin-bottom: 45px;
+}
+button{
+    background-color: yellow;
+    color: black;
+    border: 2px solid transparent;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-size: 17px;
+    font-weight: bold;
+}
+button:hover{
+    transform: scale(1.2);
+    background-color: transparent;
+    border: 2px solid green;
+    color: brown;
+    transition: .4s;
+    cursor: pointer;
+}
+
+
+.heading{
+    text-align: center;
+    padding-bottom: 2rem;
+    text-shadow: var(--text-shadow);
+    
+    color: var(--black);
+    font-size: 3rem;
+    letter-spacing: .4rem;
+}
+
+.box{
+    height: 105%;
+    width: 71%;
+    flex-wrap: wrap;
+    float: left;
+}
+.team{
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    z-index: -1;
+}
+.team .team-member{
+    background-color: rgb(221 193 193);
+    margin: 5px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    position: relative;
+
+}
+.team .team-member .hss{
+    color: orange;
+    font-size: 1rem;
+    margin-top: 50px;
+}
+.team .team-member .is{
+    border-radius: 100px;
+    width: 100px;
+
+    
+}
+
+@media  screen and (max-width:650px) {
+    .about .cnt img{
+        margin-bottom: 35px;
+    }
+    .text1 h1{
+        font-size: 60px;
+        margin-bottom: 25px;
+
+    }
+    
+}
